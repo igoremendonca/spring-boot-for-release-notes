@@ -5,4 +5,6 @@ import com.spring.boot.release.pocrelease.model.Example;
 public interface ExampleService {
 
     Example create(Example example);
+
+    Example get(String exampleId);
 }
